@@ -5,11 +5,11 @@ public class Operacao {
 	public Operacao() {
 	}
 	
-	double soma( double x, double y) {
+	public double soma( double x, double y) {
 		return x+y;
 	}
 	
-	double multiplicacao ( double x, double y ) {
+	public double multiplicacao ( double x, double y ) {
 		return x*y;
 	}
 
