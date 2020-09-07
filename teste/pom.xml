@@ -2,7 +2,7 @@
   <modelVersion>4.0.0</modelVersion>
   <groupId>br.com.praiasoft</groupId>
   <artifactId>teste2</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
+  <version>0.0.2-SNAPSHOT</version>
   <name>somente teste</name>
   
 <properties>
@@ -11,6 +11,7 @@
 </properties>
 <distributionManagement>
    <repository>
+     <uniqueVersion>true</uniqueVersion>
      <id>github</id>
      <name>GitHub Praiasoft Apache Maven Packages</name>
      <url>https://maven.pkg.github.com/praiasoft/teste2</url>
